@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+.raleway-uniquifier {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-1{
+    width: 100%;
+    height: 15vh;
+    /* border: 1px solid green; */
+    background-color: black;
+}
+.header-div{
+    width: 95%;
+    height: 15vh;
+    /* border: 2px solid red; */
+    margin: auto;
+    background-color: black;
+}
+.navigation{
+display: flex;
+padding: 20px;
+}
+.ul-list{
+    display: flex;
+    margin: auto;
+}
+.ancor-tak{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: goldenrod;
+    cursor: pointer;
+}
+.ancor-tak:hover{
+    color: white;
+}
+
+
+.lissy{
+    list-style: none;
+}
+.My-section1{
+    width: 100%;
+    height: 150vh;
+    background-image: url(./newwwww.png);
+    background-position: center;
+    background-size: cover;
+}
+.my-holder{
+    width: 95%;
+    height: 140vh;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.stand{
+    width: 40%;
+    height: 70vh;
+    /* border: 2px solid blue; */
+}
+.oneimg{
+    background-image: url(./umoh.png);
+    height: 130vh;
+    background-position: 50 100;
+    background-size: cover;
+}
+.onetext{
+   width: 50%;
+   height: 130vh;
+   display: block;
+   
+}
+.welcome-1{
+    width: 100%;
+    height: 60vh;
+    border: 5px solid goldenrod;
+}
+.abt{
+    color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;    
+}
+.para{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.space{
+    margin-top: 50px;
+}
+.journey{
+   color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px; 
+}
+.technology{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+.raleway-uniquifier {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skill-header{
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid red; */
+    background-color: black;
+}
+.skilldiv-header{
+    width: 95%;
+    height: 15vh;
+    /* border: 2px solid yellow; */
+    margin: auto;
+
+}
+.skill-navv{
+    display: flex;
+    padding: 20px;  
+}
+.skill-ul{
+    display: flex;
+    margin: auto;
+}
+.skill-anchor{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: goldenrod;
+    cursor: pointer;
+}
+.skill-anchor:hover{
+    color: white;
+}
+.skill-list{
+    list-style: none;
+}
+
+.skillfirst-section{
+    width: 100%;
+    height: 150vh;
+    background-image: url(./newwwww.png);
+    background-size: cover;
+    background-position: center;
+}
+.skillfirst-sectionholder{
+    width: 95%;
+    height: 140vh;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+}
+.skill-img{
+    width: 50%;
+    height: 100vh;
+    border: 2px solid gray;
+}
+.skillimg{
+    background-image: url(./beautiful.png);
+    background-position: center;
+    background-size: cover;
+}
+.skills-heading{
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+
